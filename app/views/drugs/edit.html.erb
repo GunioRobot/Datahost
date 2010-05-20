@@ -1,0 +1,24 @@
+<h1>Editing drug</h1>
+
+<% form_for(@drug) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :substrate_name %><br />
+    <%= f.text_field :substrate_name %>
+  </p>
+  <p>
+    <%= f.label :class_name %><br />
+    <%= f.text_field :class_name %>
+  </p>
+  <p>
+    <%= f.label :status %><br />
+    <%= f.check_box :status %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @drug %> |
+<%= link_to 'Back', drugs_path %>

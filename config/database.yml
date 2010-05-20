@@ -1,0 +1,29 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: datahost_development
+  pool: 5
+  username: root
+  password: lum1n0x
+  socket: /var/run/mysqld/mysqld.sock
+
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: datahost_test
+  pool: 5
+  username: root
+  password: lum1n0x
+  socket: /var/run/mysqld/mysqld.sock
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: datahost_production
+  pool: 5
+  username: root
+  password: lum1n0x
+  socket: /var/run/mysqld/mysqld.sock

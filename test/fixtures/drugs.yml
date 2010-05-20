@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  substrate_name: MyString
+  class_name: MyString
+  status: false
+
+two:
+  substrate_name: MyString
+  class_name: MyString
+  status: false

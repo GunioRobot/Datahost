@@ -1,0 +1,18 @@
+<p>
+  <b>Substrate name:</b>
+  <%=h @drug.substrate_name %>
+</p>
+
+<p>
+  <b>Class name:</b>
+  <%=h @drug.class_name %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @drug.status %>
+</p>
+
+
+<%= link_to 'Edit', edit_drug_path(@drug) %> |
+<%= link_to 'Back', drugs_path %>
