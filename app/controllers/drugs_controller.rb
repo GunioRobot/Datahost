@@ -1,4 +1,5 @@
 class DrugsController < ApplicationController
+  layout 'standard'
   # GET /drugs
   # GET /drugs.xml
   def index
